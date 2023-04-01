@@ -2,6 +2,7 @@ import React from 'react';
 import Title from './Title';
 import PlanetCard from './PlanetCard';
 import planets from '../data/planets';
+import linha from '../images/Line1.png';
 
 class SolarSystem extends React.Component {
   render() {
@@ -9,7 +10,8 @@ class SolarSystem extends React.Component {
     return (
       <div data-testid="solar-system">
         <Title headline={ planetas } />
-        <div>
+        <div className="solarSystem">
+          <img id="imglinhaplaneta" src={ linha } alt="linha" />
           {planets
             .map(({ name, image }) => (
               <PlanetCard

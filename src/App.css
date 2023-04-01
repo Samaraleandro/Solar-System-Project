@@ -1,3 +1,195 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,200;1,200&family=Open+Sans:wght@300&display=swap');
+
+body {
+  width: 1240px;
+  height: 3327px;
+  background-image: url(../src/images/background.png);
+  background-size: auto;
+  color: white;
   text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  text-transform: uppercase;
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  position: absolute;
 }
+
+header {
+  margin-bottom: 80px;
+}
+
+#Mercúrio {
+  width: 41px;
+  padding-top: 115px;
+  position: relative;
+}
+
+#Vênus {
+  width: 102px;
+  padding-top: 90px;
+  position: relative;
+}
+
+#Terra {
+  width: 106px;
+  padding-top: 90px;
+  position: relative;
+}
+
+#Marte {
+  width: 66px;
+  padding-top: 106px;
+  position: relative;
+}
+
+#Júpiter {
+  width: 255px;
+  padding-top: 20px;
+  position: relative;
+}
+
+#Urano {
+  width: 144px;
+  padding-top: 70px;
+  position: relative;
+}
+
+#Saturno {
+  width: 252px;
+  padding-top: 20px;
+  position: relative;
+  transform: rotate(-16.53deg);
+}
+
+#Netuno {
+  width: 144px;
+  padding-top: 70px;
+  position: relative;
+}
+
+#imglinhaplaneta {
+  position:absolute;
+  width: 1305px;
+}
+
+img {
+  width: 150px;
+}
+
+.solarSystem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.planet-card {
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.missions {
+width: 1098px;
+height: 2276px;
+margin-left: 60px;
+margin-top: 20px;
+border-radius: 30px;
+display: flex;
+flex-direction: column;
+background-color: rgba(100, 104, 114, 0.1);
+}
+
+.eachMission {
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+  width: 496px;
+  height: 192px;
+  margin-left: 10px;
+  margin-bottom: 10px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.missionCard {
+  display: flex;
+  flex-wrap: wrap;
+  height: 2270px;
+  width: 1098px;
+  justify-content: center;
+}
+
+.dadosMission {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.dadosMission p {
+  margin-right: 15px;
+}
+
+#titleMission {
+  display: flex;
+  flex-direction: column;
+  width: 496px;
+  height: 56.81px;
+}
+
+#imgCalendar {
+  width: 20px;
+  height: 20px;
+  color: black;
+}
+
+#imgLocalizacao {
+  width: 15px;
+  height: 20px;
+}
+
+#imgBandeira {
+  width: 15px;
+  height: 20px;
+}
+
+.dadosMission p {
+  margin-left:25px;;
+}
+
+#imglinha {
+  width: 496px;
+}
+
+.year {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.bandeira {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 50px;
+}
+
+
+
