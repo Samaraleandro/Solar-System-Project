@@ -4,7 +4,7 @@ Neste projeto é renderizado todos os planetas do sistema solar e algumas cartas
 
 Técnologias usadas:
 
-React, Javascript
+React, CSS, Javascript
 
 Instalando Dependências:
 
