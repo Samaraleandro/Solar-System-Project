@@ -1,16 +1,7 @@
 
 # Projeto Solar System
 
-Neste projeto é renderizado todos os planetas do sistema solar e algumas cartas com informações sobre missões espaciais que foram realizadas.
-
-
-## Instalação
-
-Instale com npm
-
-```bash
-  npm install
-```
+Este é um projeto realizado através da escola de Desenvolvimento Web, Trybe, no módulo de Front-end. Na aplicação é renderizado todos os planetas do sistema solar e algumas cartas com informações sobre missões espaciais que foram realizadas.
     
 ## Rodando localmente
 
